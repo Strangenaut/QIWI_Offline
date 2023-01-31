@@ -1,9 +1,12 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.Splash;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import qiwi.tokenlogics.Password.PasswordEnterActivity;
+import qiwi.tokenlogics.R;
 
 public class SplashActivity extends AppCompatActivity {
 

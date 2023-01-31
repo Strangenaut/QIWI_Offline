@@ -1,4 +1,4 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.Purchaser;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,12 +8,15 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
 
-public class SettingsMerchantActivity extends AppCompatActivity {
+import qiwi.tokenlogics.JSON.JSONHelper;
+import qiwi.tokenlogics.R;
+
+public class SettingsPurchaserActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings_merchant);
+        setContentView(R.layout.activity_settings_purchaser);
     }
 
     public void onClickExitApp(View view) {
@@ -21,7 +24,7 @@ public class SettingsMerchantActivity extends AppCompatActivity {
     }
 
     public void onClickChangeMode(View view) {
-        JSONHelper.writeUserMode(this, "Purchaser");
+        JSONHelper.writeUserMode(this, "Merchant");
         JSONHelper.writePasswordInputTime(this, String.valueOf(System.currentTimeMillis()));
         PackageManager packageManager = getPackageManager();
         Intent intent = packageManager.getLaunchIntentForPackage(this.getPackageName());

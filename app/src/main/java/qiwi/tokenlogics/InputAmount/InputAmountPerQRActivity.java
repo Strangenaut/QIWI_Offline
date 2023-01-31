@@ -1,4 +1,4 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.InputAmount;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,9 @@ import android.widget.Toast;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+
+import qiwi.tokenlogics.Merchant.WaitingForPurchaserPaymentActivity;
+import qiwi.tokenlogics.R;
 
 public class InputAmountPerQRActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.Merchant;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,12 +10,16 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
-public class PurchaserActivity extends AppCompatActivity {
+import qiwi.tokenlogics.InputAmount.InputAmountActivity;
+import qiwi.tokenlogics.InputAmount.InputAmountPerQRActivity;
+import qiwi.tokenlogics.R;
+
+public class MerchantActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_purchaser);
+        setContentView(R.layout.activity_merchant);
     }
 
     @Override
@@ -27,18 +31,18 @@ public class PurchaserActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        Intent intent = new Intent(this, SettingsPurchaserActivity.class);
+        Intent intent = new Intent(this, SettingsMerchantActivity.class);
         startActivity(intent);
         return true;
     }
 
     public void onClickPayByNFC(View view) {
-        Intent intent = new Intent(this, NFCpayPurchaserActivity.class);
+        Intent intent = new Intent(this, InputAmountActivity.class);
         startActivity(intent);
     }
 
     public void onClickPayByQR(View view) {
-        Intent intent = new Intent(this, QRpayPurchaserAcitivity.class);
+        Intent intent = new Intent(this, InputAmountPerQRActivity.class);
         startActivity(intent);
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="onClickConstraint"
-    tools:context=".WaitingForPurchaserPaymentActivity">
+    tools:context=".Merchant.WaitingForPurchaserPaymentActivity">
 
     <TextView
         android:id="@+id/paymentWaitingText"

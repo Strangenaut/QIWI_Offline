@@ -1,10 +1,13 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.Purchaser;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import qiwi.tokenlogics.ConfirmPayment.ConfirmActivity;
+import qiwi.tokenlogics.R;
 
 public class NFCpayPurchaserActivity extends AppCompatActivity {
 

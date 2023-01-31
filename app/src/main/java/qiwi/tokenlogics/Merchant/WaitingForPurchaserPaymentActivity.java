@@ -1,10 +1,13 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.Merchant;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import qiwi.tokenlogics.PaymentSuccessfullActivity;
+import qiwi.tokenlogics.R;
 
 public class WaitingForPurchaserPaymentActivity extends AppCompatActivity {
 

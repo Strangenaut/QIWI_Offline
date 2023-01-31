@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import qiwi.tokenlogics.JSON.JSONHelper;
+import qiwi.tokenlogics.Merchant.MerchantActivity;
+import qiwi.tokenlogics.Purchaser.PurchaserActivity;
+
 public class PurchaserOrMerchantActivity extends AppCompatActivity {
     private Button bt;
 

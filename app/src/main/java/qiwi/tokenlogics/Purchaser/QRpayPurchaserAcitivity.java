@@ -1,11 +1,10 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.Purchaser;
 
 import static android.graphics.Color.BLACK;
 import static android.graphics.Color.WHITE;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -17,10 +16,12 @@ import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
-import com.journeyapps.barcodescanner.BarcodeEncoder;
 
 import java.util.EnumMap;
 import java.util.Map;
+
+import qiwi.tokenlogics.ConfirmPayment.ConfirmActivity;
+import qiwi.tokenlogics.R;
 
 public class QRpayPurchaserAcitivity extends AppCompatActivity {
 

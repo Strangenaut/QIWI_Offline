@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="onClickReady"
-    tools:context=".InputAmountPerQRActivity">
+    tools:context=".InputAmount.InputAmountPerQRActivity">
 
     <TextView
         android:id="@+id/inputAmountText"

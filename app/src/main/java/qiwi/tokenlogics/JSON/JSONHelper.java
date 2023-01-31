@@ -1,4 +1,4 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.JSON;
 
 import android.content.Context;
 

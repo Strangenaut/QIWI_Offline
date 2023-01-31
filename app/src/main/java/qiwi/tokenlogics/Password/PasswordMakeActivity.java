@@ -1,14 +1,16 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.Password;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ConfirmWithTokenActivity extends AppCompatActivity {
+import qiwi.tokenlogics.R;
+
+public class PasswordMakeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_confirm_with_token);
+        setContentView(R.layout.activity_password_make);
     }
 }

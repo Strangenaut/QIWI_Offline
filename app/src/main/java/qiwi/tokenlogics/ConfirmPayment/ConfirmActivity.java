@@ -1,4 +1,4 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.ConfirmPayment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
+
+import qiwi.tokenlogics.PaymentSuccessfullActivity;
+import qiwi.tokenlogics.R;
 
 public class ConfirmActivity extends AppCompatActivity {
     private EditText codeInput;

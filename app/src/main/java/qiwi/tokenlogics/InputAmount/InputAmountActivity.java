@@ -1,10 +1,13 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.InputAmount;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import qiwi.tokenlogics.Merchant.NFCpayMerchantActivity;
+import qiwi.tokenlogics.R;
 
 public class InputAmountActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package qiwi.tokenlogics;
+package qiwi.tokenlogics.Password;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import qiwi.tokenlogics.JSON.JSONHelper;
+import qiwi.tokenlogics.PurchaserOrMerchantActivity;
+import qiwi.tokenlogics.R;
 
 public class PasswordEnterActivity extends AppCompatActivity {
     private TextView passwordDigit1, passwordDigit2, passwordDigit3, passwordDigit4;
