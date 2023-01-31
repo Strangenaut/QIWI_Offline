@@ -5,7 +5,6 @@ There are two modes: purchaser and merchant. Merchant enters amount of payment, 
 On the output merchant's phone has NFC of QR generated, then purchaser reads QR code or NFC, and the app automatically sends certain amount of money to merchant's wallet.
 
 ## Screenshots
-____
 ### Purchaser mode
 ![Purchaser main screen](https://user-images.githubusercontent.com/98609700/215818415-4dfba38b-d036-423a-b041-895113b2bed6.png)
 ![Purchaser NFC payment screen](https://user-images.githubusercontent.com/98609700/215818436-f609b58b-692f-48a7-b758-9fa7d2ba1d12.png)
